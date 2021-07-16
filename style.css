@@ -103,6 +103,16 @@ ul#escolha li a img, ul#computador-escolha li a img{
    padding: 20px;
  }
 
+ #usuario {
+  background-color: #fff;
+  color:#000;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 40px 0; 
+  font-size: 32px;
+
+ }
+
 
  @media only screen and (min-width: 600px) {
   /* For desktop: */
@@ -128,4 +138,12 @@ ul#escolha li a img, ul#computador-escolha li a img{
     padding: 20px;
     background-color: gray;
   }
+  #usuario {
+    background-color: #fff;
+    color:#000;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px 0; 
+    font-size: 32px;  
+   }
 }
