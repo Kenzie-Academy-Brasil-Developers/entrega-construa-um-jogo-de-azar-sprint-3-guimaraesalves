@@ -18,23 +18,23 @@ function jogar(jogador) {
     //alert(resp)
     
     if ((resp == 1) && ( jogadorescolha == 1)){
-        return document.getElementById('result').innerHTML = "EU TAMBÉM ESCOLHI PEDRA! EMPATAMOS!👊"
+        return document.getElementById('result').innerHTML = "EU TAMBÉM! EMPATAMOS! 👊"
     } else if ((resp == 1) && (jogadorescolha == 2)){
-        return document.getElementById('result').innerHTML = "EU ESCOLHI PEDRA! VOCÊ TESOURA! VOCÊ GANHOU!👏"
+        return document.getElementById('result').innerHTML = "EU ESCOLHI PEDRA! VOCÊ GANHOU! 👏"
     } else if ((resp == 1) && (jogadorescolha == 3)){
-        return document.getElementById('result').innerHTML = "EU ESCOLHI PEDRA! VOCÊ ESCOLHEU TESOURA! EU GANHEI!👋"
+        return document.getElementById('result').innerHTML = "EU ESCOLHI PEDRA!! EU GANHEI! 👋"
     } else if ((resp == 2) && (jogadorescolha == 1)){
-        return document.getElementById('result').innerHTML = "EU ESCOLHI PAPEL! VOCÊ ESCOLHEU PEDRA! VOCÊ GANHOU!👏"
+        return document.getElementById('result').innerHTML = "EU ESCOLHI PAPEL!  VOCÊ GANHOU!! 👏"
     } else if ((resp == 2) && (jogadorescolha == 2)){
-        return document.getElementById('result').innerHTML = "EU TAMBÉM ESCOLHI PAPEL! VOCÊ TAMBÉM! EMPATAMOS!👊"
+        return document.getElementById('result').innerHTML = "EU TAMBÉM!!  EMPATAMOS! 👊"
     } else if ((resp == 2) && (jogadorescolha == 3)) {
-        return document.getElementById('result').innerHTML = "EU ESCOLHI PAPEL! TESOURA!  EU GANHEI!👋"
+        return document.getElementById('result').innerHTML = "EU ESCOLHI PAPEL!  EU GANHEI! 👋"
     } else if ((resp == 3) && (jogadorescolha == 1)) {
-        return document.getElementById('result').innerHTML = "EU ESCOLHI TESOURA! VOCÊ PEDRA! VOCÊ GANHOU!👏"
+        return document.getElementById('result').innerHTML = "EU ESCOLHI TESOURA! VOCÊ GANHOU! 👏"
     } else if ((resp == 3) && (jogadorescolha == 2)) {
-        return document.getElementById('result').innerHTML = "EU ESCOLHI TESOURA!  VOCÊ PAPEL! GANHEI!👋"
+        return document.getElementById('result').innerHTML = "EU ESCOLHI TESOURA! GANHEI! 👋"
     } else if ((resp == 3) && (jogadorescolha == 3)) {
-        return document.getElementById('result').innerHTML = "EU TAMBÉM ESCOLHI TESOURA! EMPATAMOS!👊"
+        return document.getElementById('result').innerHTML = "EU TAMBÉM! EMPATAMOS! 👊"
     }
 
     
